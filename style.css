@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: 'serif';
+    color: #fff;
 }
 html,
 body {
@@ -13,8 +14,16 @@ body {
 body{
     background-color: #111;
 }
-#box{
+#box1{
     height: 300px;
     width: 300px;
     background-color: crimson;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(20, 190, 220);
+}
+#space{
+    height: 100px;
 }

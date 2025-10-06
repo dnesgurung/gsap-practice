@@ -9,18 +9,21 @@ gsap.to('#box1', {
     borderRadius: "50%"
 
 })
+*/
 
-gsap.from('#box2', {
+gsap.to('#box2', {
     x: 1000,
     duration: 2,
     delay: 1,
     rotate: 360,
-    scale: 0.5,
     backgroundColor: 'white',
-    borderRadius: "50%"
+    borderRadius: "50%",
+    scale: 0.5,
+    repeat: -1,
+    yoyo: true
 
 })
-    */
+    
 
 gsap.from("h1", {
   opacity: 0,
@@ -28,4 +31,5 @@ gsap.from("h1", {
   delay: 1,
   y: 30,
   stagger: 0.3,
+  repeat: -1,
 });

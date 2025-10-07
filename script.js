@@ -120,6 +120,36 @@ gsap.from("#page3 h2", {
         trigger: '#page3 h2',
         scroller: "body",
         markers: true,
-        start: "top 65%"
+        start: "top 50%"
     }
 });
+
+gsap.from("#page4 #box", {
+  scale: 0,
+  opacity: 0,
+  rotate: 720,
+  duration: 1,
+  scrollTrigger: {
+    trigger: "#page4 #box",
+    scroller: "body",
+    markers: true,
+    start: "top 70%",
+    end: 'top 450%',
+    scrub: 2
+
+  }
+})
+
+gsap.to("#page6 h1", {
+  transform: "translateX(-200%)",
+  scrollTrigger: {
+    trigger: "#page6",
+    scroller: "body",
+    markers: true,
+    start: "top 0%",
+    end: "top -150%",
+    scrub: 2,
+    pin: true
+  }
+
+})

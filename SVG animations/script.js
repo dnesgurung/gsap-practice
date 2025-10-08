@@ -1,0 +1,1 @@
+const initialPath = `M 0 80 Q 250 10 490 80`

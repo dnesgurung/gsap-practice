@@ -1,12 +1,54 @@
+@font-face {
+  font-family: aldofont;
+  src: url(./AldotheApache.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "serif";
-  color: #fff;
+  color: #000000;
 }
 html,
 body {
   height: 100%;
   width: 100%;
+}
+
+body {
+  background-color: #111;
+}
+
+#page1,
+#page2,
+#page3 {
+  height: 100vh;
+  width: 100%;
+  padding: 5vw 0;
+}
+
+#move {
+  background-color: #d9ff06;
+  display: flex;
+  padding: 3vw 0;
+  overflow: hidden;
+}
+#marquee {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding: 0 1.5vw;
+  transform: translateX(-100%)
+}
+
+#marquee img {
+  height: 4.5vw;
+}
+
+#marquee h1 {
+  font-size: 5vw;
+  font-family: aldofont;
+  font-weight: 100;
 }

@@ -1,0 +1,103 @@
+@font-face{
+    font-family: brandiumFont;
+    src:url(./3856NeueMachina.woff2)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "serif";
+  color: #000000;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1{
+    font-size: 30px;
+}
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 35px;
+}
+
+nav h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 22px 40px;
+    font-size:  14px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid #000;
+    background-color: transparent;
+}
+
+.center{
+    padding: 80px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+ 
+.center-part1{
+   
+    height: 100%;
+    width: 45%;
+}
+
+.center-part2{
+    
+    height: 100%;
+    width: 55%;
+}
+
+.center-part1 h1{
+    line-height: 1;
+    font-size: 100px;
+    background-color: red;
+    font-family: brandiumFont;
+}
+
+.center-part1 p{
+    font-size: 30px;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.center-part1 button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 22px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
